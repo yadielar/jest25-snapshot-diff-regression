@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+.emotion-0 {
+  background-color: white;
+  margin: 0;
+  padding: 8px;
+  list-style: none;
+}
+
+.emotion-0 li {
+  margin-top: 16px;
+}
+
+.emotion-0 li:first-of-type {
+  margin-top: 0;
+}
+
+<ul
+  class="emotion-0"
+>
+  <div>
+    Hello
+  </div>
+</ul>
+`;

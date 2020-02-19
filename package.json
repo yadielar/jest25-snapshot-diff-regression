@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "@babel/core": "7.8.4",
+    "@emotion/core": "^10.0.27",
+    "@emotion/styled": "^10.0.27",
     "@svgr/webpack": "4.3.3",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -20,6 +22,8 @@
     "css-loader": "3.4.2",
     "dotenv": "8.2.0",
     "dotenv-expand": "5.1.0",
+    "emotion": "^10.0.27",
+    "emotion-theming": "^10.0.27",
     "eslint": "^6.6.0",
     "eslint-config-react-app": "^5.2.0",
     "eslint-loader": "3.0.3",
@@ -33,6 +37,7 @@
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
     "jest": "24.9.0",
+    "jest-emotion": "^10.0.27",
     "jest-environment-jsdom-fourteen": "1.0.1",
     "jest-resolve": "24.9.0",
     "jest-watch-typeahead": "0.4.2",
@@ -125,6 +130,9 @@
       "web.jsx",
       "jsx",
       "node"
+    ],
+    "snapshotSerializers": [
+      "jest-emotion"
     ],
     "watchPlugins": [
       "jest-watch-typeahead/filename",
